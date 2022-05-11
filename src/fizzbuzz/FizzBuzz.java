@@ -36,7 +36,7 @@ public class FizzBuzz {
                 max = 0;
                 min = fizzbuzz;
             }
-            //Loop through, testing each integer's divisibility to 3 and 5 
+            //Loop through, testing each integer's divisibility to 3 and 5 putting fizz for an integer divisble by 3 and a buzz for an integer divisble by 5
             for (int i = min; i <= max; i++) {
                 String numberText = i + "\t";
                 if (i % 3 == 0){
